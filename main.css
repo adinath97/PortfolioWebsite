@@ -5,10 +5,10 @@ span {
 .labelForTextbox {
     display: inline-block;
     padding-top: 5px;
-    padding-right: 50px;
+    padding-right: 40px;
     padding-bottom: 5px;
-    padding-left: 50px;
-    margin:25px;
+    padding-left: 40px;
+    margin:20px;
 }
 
 .centerText {
