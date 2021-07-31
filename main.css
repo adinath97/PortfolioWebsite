@@ -11,6 +11,11 @@ span {
     margin: 25px;
 }
 
+.imgClass {
+    max-width: 33%;
+    max-height: 33%;
+}
+
 .centerText {
     text-align: center;
 }
