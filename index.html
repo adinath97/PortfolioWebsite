@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="main.css">
-    <title>Aditya's Game Projects</title>
+    <title>Aditya's Portfolio Projects</title>
     
 </head>
 <body>
@@ -21,23 +21,30 @@
         </section>
 
         <section class="container-2">
+            <button id="AboutMeBtn">About Me!</button>
             <div><a href="#cpp"><p>C++</p></a></div>
             <div><a href="#unity"><p>C# (Unity)</p></a></div>
         </section>
         <hr>
 
+        <section>
+            <div id="AboutMe" class="hidden">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus, aliquam dicta. Natus alias in expedita dignissimos inventore aspernatur officia voluptates, maiores adipisci, perferendis optio esse consequatur aliquam voluptatum odit vitae.</p>
+            </div>
+        </section>
+
     </header>
     
     <main>
 
-        <section id="title">
+        <section id="cpp">
             <hr>
             <h2 class="centerText">C++ Projects</h2>
             <hr>
             <p class="centerText">Each of the following C++ projects below links to the associated github repository</p>
             <hr>
         </section>
-        <section id="cpp">
+        <section>
             <div class="row">
                 <div class="column">
                     <a href="https://github.com/adinath97/C-Projects/blob/main/CritterCare.cpp"><p>Critter Care</p></a>
@@ -60,7 +67,7 @@
         <hr>
         <hr>
 
-        <section id="title">
+        <section id="unity">
             <h2 class="centerText">Unity (C#) Projects</h2>
             <hr>
             <h3 class="centerText">My Top Three</h3>
@@ -69,7 +76,7 @@
             </p>
             <hr>
         </section>
-        <section id="unity" class="container-2">
+        <section class="container-2">
             <div> 
                 <h3 class="centerText">Coin Collector</h3>
                 <br>
@@ -244,5 +251,6 @@
 
     </main>
 
+    <script src="script.js"></script>
 </body>
 </html>
