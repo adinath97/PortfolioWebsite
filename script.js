@@ -29,8 +29,8 @@ function reveal() {
 
         if(revealTop < windowHeight - revealPoint) {
             reveals[i].classList.add('active');
-        } else {
+        } /*else {
             reveals[i].classList.remove('active');
-        }
+        }*/
     }
 }
