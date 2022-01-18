@@ -1,0 +1,75 @@
+body {
+    background-color: lightblue;
+}
+
+/* Get rid of default button styling, make it look like a link */
+button {
+    background: none!important;
+    border: none;
+    padding: 0!important;
+    font: inherit;
+    color: inherit;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+a {
+    color: inherit;
+}
+
+.hidden {
+    display: none;
+}
+
+.reveal {
+    position: relative;
+    transform: translateY(150px);
+    opacity: 0;
+    transition: all 2s ease;
+}
+
+.reveal.active{
+    transform: translateY(0px);
+    opacity: 1;
+}
+
+@media(min-width:768px) {
+    ul {
+        flex-direction: column;
+        flex-wrap: wrap;
+        display: flex;
+    }
+
+    .container-1{
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+
+    .container-2{
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+
+    .column {
+        float: right;
+        width: 33.33%;
+    }
+
+    /* Clear floats after the columns */
+    .row:after {
+        content: "";
+        display: table;
+        clear: both;
+    }
+    
+    .container-1 div{
+        padding:2.5%;
+    }
+
+    .centerText {
+        text-align: center;
+    }
+}
+
