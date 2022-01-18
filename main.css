@@ -1,3 +1,26 @@
+body {
+    background-color: lightblue;
+}
+
+/* Get rid of default button styling, make it look like a link */
+button {
+    background: none!important;
+    border: none;
+    padding: 0!important;
+    font: inherit;
+    color: inherit;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+a {
+    color: inherit;
+}
+
+.hidden {
+    display: none;
+}
+
 @media(min-width:768px) {
     ul {
         flex-direction: column;
